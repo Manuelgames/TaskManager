@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button id="themeBackground">Theme</button>
+            <h1>Task Manager</h1>
+            <p></p>
+        </nav>
+    </header>
+    <main>
+        <section class="main__taskManagerContainer">
+            <h2>What task do you have in mind?</h2>
+            <form id="taskManager-form">
+                <input id="taskInto-input" type="text" placeholder="Enter a new task" >
+                <input id="taskInto-button" type="submit" value="Add Task">
+            </form>
+            <ul class="taskManagerContainer__list">
+            </ul>
+        </section>
+    </main>
+    <script src="/code.js"></script>
+</body>
+</html>
