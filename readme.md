@@ -1,0 +1,1 @@
+Este es un proyecto donde se aplican conocimientos para la manipulacion del DOM
